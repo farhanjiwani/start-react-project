@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Farhan Jiwani -- Developer -- @AlfaTrion
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    JavaScript, CSS3, HTML5
+    Normalize.css
