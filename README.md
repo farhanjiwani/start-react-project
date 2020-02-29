@@ -5,8 +5,33 @@ Just a quick way to start a [React](https://reactjs.org/) project without using 
 ## Install
 
 ```bash
-yarn install
+yarn
 yarn start
+```
+
+### (_Optional_) Add SASS
+
+Add required packages:
+
+```bash
+yarn add -D node-sass sass-loader
+```
+
+Update `webpack.config.js`:
+
+```js
+module: {
+    rules: [
+        {
+            test: /\.s?css$/,
+            use: [
+                "style-loader", //3. Inject styles into DOM
+                "css-loader",   //2. Turns CSS into commonjs
+                "sass-loader"   //1. Turns SCSS into CSS
+            ]
+        }
+    ];
+}
 ```
 
 ## What's In It
